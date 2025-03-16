@@ -2,7 +2,7 @@ public class RotateArray {
 
     public void rotate(int[] nums, int k) {
 
-        int n = nums.lenght;
+        int n = nums.length;
 
         k = n % k;
 
