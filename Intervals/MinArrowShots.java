@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MinArrowShots {
 
     public int findMinArrowShots(int[][] points) {
