@@ -2,10 +2,10 @@
 /**
  * Definition for singly-linked list.
  **/
-class ListNode {
+class ListNode2 {
      int val;
-     ListNode next;
-     ListNode(int x) {
+     ListNode2 next;
+     ListNode2(int x) {
         val = x;
         next = null;
      }
@@ -16,10 +16,10 @@ class ListNode {
 
 public class LinkedListCycle {
 
-    public boolean hasCycle(ListNode head) {
+    public boolean hasCycle(ListNode2 head) {
 
-        ListNode slow = head;
-        ListNode fast = head;
+        ListNode2 slow = head;
+        ListNode2 fast = head;
 
         while(fast!=null && fast.next!=null)
         {
